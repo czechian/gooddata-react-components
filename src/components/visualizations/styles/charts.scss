@@ -4,7 +4,7 @@
 @import "~@gooddata/goodstrap/lib/core/styles/mixins";
 @import "variables";
 
-$font-stack-roman: "Avenir", "Helvetica Neue", arial, sans-serif;
+$font-stack-roman: $gd-font-primary;
 $legend-paging-background: #eee;
 $legend-right-width: 190px;
 $paging-button-small-size: 22px;

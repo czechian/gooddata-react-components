@@ -23,7 +23,7 @@ module.exports = {
                 loaders: ['style-loader', 'css-loader', 'sass-loader']
             },
             {
-                test: /\.(svg|eot|woff|ttf)$/,
+                test: /\.(svg|eot|woffwoff|woff2|ttf)$/,
                 loader: 'file-loader',
                 options: {
                     name: '[name].[ext]'

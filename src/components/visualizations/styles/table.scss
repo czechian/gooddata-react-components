@@ -2,6 +2,7 @@
 $gdc-goodstrap-basepath: "~@gooddata/goodstrap/lib/";
 
 @import "~fixed-data-table-2/dist/fixed-data-table.css";
+@import "~@gooddata/goodstrap/lib/core/styles/variables";
 @import "~@gooddata/goodstrap/lib/core/styles/colors";
 @import "~@gooddata/goodstrap/lib/core/styles/IndigoFont";
 @import "~@gooddata/goodstrap/lib/core/styles/layout";
@@ -16,7 +17,7 @@ $gdc-goodstrap-basepath: "~@gooddata/goodstrap/lib/";
 .indigo-table-component {
     position: relative;
     overflow: hidden;
-    font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
+    font-family: $gd-font-primary;
     font-size: 12px;
     font-weight: normal;
     line-height: 100%;
